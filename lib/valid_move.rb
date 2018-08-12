@@ -1,6 +1,6 @@
 # code your #valid_move? method here
 def valid_move?(board, index) #checks to make sure that the submitted position by the user is present on the game bard and not already filled with a token
-  def position_taken?(array, ind)
+  def position_taken?(array, ind) #repurposes the def position_taken? Method from the previous lesson to set a conditional expression on whether or not a position is taken or not
     if array[ind] == " " || array[ind] == "" || array[ind] == nil
       return false
     else
